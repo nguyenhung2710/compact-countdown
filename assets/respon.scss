@@ -1,0 +1,61 @@
+//Mobile
+@media screen and (max-width: 739px) {
+    h1 {
+        font-size: 2.8rem;
+        margin: 10px 10px 0 10px;
+    }
+    .header {
+        &__content {
+            h2 {
+                text-align: center;
+                font-size: 2.5rem;
+                letter-spacing: -1px;
+            }
+            p {
+                &:nth-child(2) {
+                    text-align: center;
+                }
+            }
+        }
+        &__info {
+            margin-right: auto;
+        }
+        &__buy {
+            margin-right: 0;
+        }
+    }
+    .main {
+        &__banner {
+            height: 70px;
+        }
+        &__properties {
+            &--modified {
+                padding: 10px !important;
+            }
+            &--img {
+                padding-left: 10px !important;
+                &-item {
+                    &:first-child, &:last-child {
+                        background-size: contain;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+    .size {
+        &__ship {
+            margin: auto;
+        }
+        &__img {
+            img {
+                width: auto;
+            }
+        }
+    }
+    #popup {
+        left: auto;
+        width: 100%;
+        text-align: center;
+    }
+}

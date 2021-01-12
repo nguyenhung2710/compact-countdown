@@ -1,0 +1,48 @@
+@media screen and (max-width: 739px) {
+  h1 {
+    font-size: 2.8rem;
+    margin: 10px 10px 0 10px;
+  }
+
+  .header__content h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+  }
+  .header__content p:nth-child(2) {
+    text-align: center;
+  }
+  .header__info {
+    margin-right: auto;
+  }
+  .header__buy {
+    margin-right: 0;
+  }
+
+  .main__banner {
+    height: 70px;
+  }
+  .main__properties--modified {
+    padding: 10px !important;
+  }
+  .main__properties--img {
+    padding-left: 10px !important;
+  }
+  .main__properties--img-item:first-child, .main__properties--img-item:last-child {
+    background-size: contain;
+    height: 200px;
+  }
+
+  .size__ship {
+    margin: auto;
+  }
+  .size__img img {
+    width: auto;
+  }
+
+  #popup {
+    left: auto;
+    width: 100%;
+    text-align: center;
+  }
+}
